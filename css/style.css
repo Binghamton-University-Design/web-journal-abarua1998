@@ -11,3 +11,19 @@ body {
 h1,h2 {
 	font-weight: 700;
 }
+
+div {
+	width: 600px;
+	height: 600px
+	background: green;
+	margin: 30px;
+	padding: 30px;
+}
+
+div.red{
+	background:red;
+}
+
+div#top {
+	background: blue;
+}
