@@ -1,7 +1,7 @@
 /*stylesheet*/
 
 body {
-	margin: 20px;
+	margin:0;
 	background: black;
 	color: white;
 	font-family: 'Roboto Slab', serif;
@@ -22,4 +22,12 @@ h1,h2 {
 	background: green;
 	margin: 2em;
 	padding: 2em;
+}
+
+#sidebar {
+	background:yellow;
+}
+
+#content {
+	background:red;
 }
