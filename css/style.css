@@ -31,3 +31,15 @@ h1,h2 {
 #content {
 	background:red;
 }
+
+@media (max-width: 699px) {
+
+	#wrapper {
+		margin: 0em auto;
+	}
+
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
+}
