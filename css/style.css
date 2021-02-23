@@ -12,9 +12,14 @@ h1,h2 {
 	font-weight: 700;
 }
 
-div {
-	width: 600px;
-	height: 600px;
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+	padding: 0 2em;
+}
+
+#main {
+	width: 100%;
 	background: green;
 	margin: 2em;
 	padding: 2em;
