@@ -14,16 +14,8 @@ h1,h2 {
 
 div {
 	width: 600px;
-	height: 600px
+	height: 600px;
 	background: green;
-	margin: 30px;
-	padding: 30px;
-}
-
-div.red{
-	background:red;
-}
-
-div#top {
-	background: blue;
+	margin: 2em;
+	padding: 2em;
 }
