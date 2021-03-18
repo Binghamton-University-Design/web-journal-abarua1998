@@ -23,7 +23,7 @@ h1,h2 {
 }
 
 #main {
-	background: green;
+	background: #333;
 	margin: 2em;
 	padding: 2em;
 }
@@ -56,11 +56,22 @@ h1,h2 {
 #nav ul {
 	list-style: none;
 	padding-left: 0;
-	margin:0;
+	margin: 0
 }
 
 #nav li {
 	margin-bottom: 1em;
+}
+
+#nav li a {
+	color: white;
+	transition: all .3s ease-in-out;
+}
+
+#nav li a:hover {
+	color: brown;
+	text-decoration: none;
+	background: white;
 }
 
 .quote-holder {
@@ -75,6 +86,66 @@ h1,h2 {
 .quote {
 	font-size: 2em;
 }
+
+#exquisite {
+	position: relative;
+	margin-bottom: 2em
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+}
+
+#projects {
+	margin-bottom: 2em;
+}
+
+#projects .grid-item {
+	color: white;
+	position: relative;
+}
+
+#projects .grid-item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#projects .grid-item .overlay {
+	transition: opacity .3s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects .grid-item:hover .overlay {
+	opacity: 1;
+}
+
+#projects .grid-item .ovrlay .project-title h3 {
+	margin-bottom: 0;
+}
+
+/*page specific styles */
+
+body.p1 {
+	background-image: url("../images/clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* ----------- */
 
 @media (max-width: 699px) {
 
