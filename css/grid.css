@@ -3,11 +3,11 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1em;
+  grid-gap: 1rem;
 }
 
 .grid div {
-  /*background-color:rgba(0,0,0,0.04);*/
+  /*background-color:rgba(255,255,255,0.04);*/
 }
 
 /* H E I G H T */
