@@ -211,6 +211,10 @@ h1,h2 {
 	margin-bottom: 0;
 }
 
+#exquisite .exquisite-copy {
+	padding-top: 2em;
+}
+
 #projects {
 	margin-bottom: 2em;
 }
