@@ -41,7 +41,7 @@ h1,h2 {
 }
 
 #logo img, .item img {
-	width: 100%
+	width: 100%;
 	height:auto;
 }
 
