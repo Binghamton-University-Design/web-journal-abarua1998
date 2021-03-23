@@ -128,3 +128,16 @@
 
 }
 
+#exquisite {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+#exquisite.grid {
+  grid-gap: 0;
+}
+
+#exquisite.grid img {
+  margin-bottom: 0;
+  display: block;
+}
